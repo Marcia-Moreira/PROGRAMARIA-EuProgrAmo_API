@@ -1,0 +1,11 @@
+# Colocar arquivos que não subirão para o GitHub:
+
+pdf_aulas
+
+node_modules
+
+package-lock.json
+
+package.json
+
+# estudos_anotacoes
