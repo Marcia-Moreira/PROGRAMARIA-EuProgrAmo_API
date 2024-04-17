@@ -6,7 +6,7 @@ const router = express.Router()
 const app = express()
 const porta = 3333
 
-// Gradar a lista de mulheres numa Constante ARRAI:
+// Guardar a lista de mulheres numa Constante ARRAI:
 // Um Arrai de Objetos = como um banco de dados
 const mulheres = [
     {
@@ -43,6 +43,7 @@ const mulheres = [
 
 function mostraMulheres(request, response) {
     response.json(mulheres)
+    // json formato arq
 }
 
 function mostraPorta() {
@@ -54,10 +55,11 @@ app.listen(porta, mostraPorta)
 
 
 //? Para Rodar no Terminal:
-// No Terminal/PowerShell/Na Pasta do arquivo .js => node server.js 
+// Ctrl+C => interrompe o servidor anterior
+// No Terminal/PowerShell/Na Pasta do arquivo .js => node mulheres.js 
 
 //? Para Rodar no Navegador:
 // http://localhost:3333
 // http://localhost:3333/mulher
-// http://localhost:3333/mulheres
+// http://localhost:3333/mulheres  ok
 

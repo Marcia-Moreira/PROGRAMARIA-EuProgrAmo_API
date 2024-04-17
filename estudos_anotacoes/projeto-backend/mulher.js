@@ -27,7 +27,11 @@ app.listen(porta, mostraPorta)
 
 
 //? Para Rodar no Terminal:
-// No Terminal/PowerShell/Na Pasta do arquivo .js => node get_ola.js 
-// Ctrl+C => interrompe o servidor
 
+// Ctrl+C => interrompe o servidor anterior
+// No Terminal/PowerShell/Na Pasta do arquivo .js => node mulher.js 
+
+// Agora com servidor rodando, vá para o navegador e cole:
 // http://localhost:3333/mulher
+
+// R: Mostrará o json da silmara.
