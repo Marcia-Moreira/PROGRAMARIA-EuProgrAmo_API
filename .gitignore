@@ -3,9 +3,14 @@
 # Pastas:
 pdf_aulas/
 node_modules/
+anotacoes_diversas/
 
 
 # Arquivos:
 package-lock.json
 package.json
 
+node_modules
+
+# (Com a senha do db)
+.env 

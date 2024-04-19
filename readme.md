@@ -4,7 +4,7 @@ EAD - 2024
 ## Tecnologias:
 
 - JavaScript / 
-- Virtualenv /
+<!-- - Virtualenv /???? -->
 
 ## Ferramentas:  
 - Node.js (https://nodejs.org/pt-br/download)
@@ -44,24 +44,167 @@ No terminal VSCode PowerShell:
 
 - Verificar o diretório do Node => $ which node
 
-- Para RODAR o Node.js no Terminal => node nome_do_arquivo.js
+- Para RODAR o Node.js no Terminal PowerShell => node nome_do_arquivo.js
 
 - Para iniciar a construção de um Pacote onde colocaremos o código => npm init -y 
 
-- Para instalar um Pacote => npm install express  (pacote de servidor)
+- Para instalar um Pacote => npm install express  (express = pacote de servidor)
   
 - Até aqui, na pasta projeto-backend/ node_modules, foram criados arquivos: package.json e package-lock.json
   
 - Criar arquivo server.js (Que será nosso servidor!) dentro da pasta projeto-backend 
 
 - Pra rodar os arquivos .js , devemos estar na pasta exata onde o arquivo está.
+  (Para Listar as pastas => ls)
+  (Para entrar em alguma pasta => cd nome_da_pasta)
+
+- Para rodar o código do arquivo.js criado no servidor local => node nome_do_arquivo.js (enter)
+
+- Com o servidor local rodando na porta xxx, vá para o navegador e use a rota do arquivo.
 
 - GET (Pegar) -> Criar arquivo get_ola.js
 
 
+# Comandos GIT
+
+No terminal git bash:
+
+=> git init
+
+=> git config --global user.email seuEmailAqui
+
+=> git config --global user.name seuNomeAqui
+
+=> git add remote linkDoSeuRepoAqui
+
+=> git add.
+=> git commit -m 'sua mensagem aqui'
+=> git push
+
+Aula 5.1
+
+- Crie um arquivo .gitignore
+  Inclua os arquivos que não vão subir pro GitHub: node_models 
+
+- No terminal gitbash: => git init (do projeto)
+=> git init
+  
+- Pegar o link do repositório se criou direto no github para integrar com o bash: com git remote add...
+=> git add remote linkDoSeuRepoAqui
+
+- Aí pode começar a subir alterações:
+=> git add.
+=> git commit -m 'sua mensagem aqui'
+=> git branch -M main
+=> git push
+
+# Servidor WEB - GitHub Pages
 
 
+# Fazer Deploy no Render.com
+Render
 
+É o serviço que vamos usar para fazer deploy do nosso código em produção, ou seja, prontinho para ter os dados acessados por meio de um link: https://render.com/
+
+https://dashboard.render.com/
+
+Entrar -> Logar com a conta do github -> 
+
+Complete as informações conforme abaixo
+Nome: back-end
+Região: Ohio
+Branch: main
+Root: não mudar
+Runtime:node
+Build Command: npm install
+Start Command: node mulheres
+
+# Criando Rotas - POST
+Dentro do conjunto de regras do HTTP, o verbo que realiza criação de informações é chamado de POST, que na tradução para português seria "publicar" 💻
+
+
+# Para testar o POST sem front = Insomnia
+
+https://insomnia.rest/download
+
+Não funcionou!
+
+# Para alterar dados PATCH/Correção
+
+Patch/Mulheres/:id
+localhost:3333/mulheres/:id
+
+Id da mulher que queremos alterar.
+
+
+# Verbos HTTP e CRUD
+
+Verbos HTTP: POST, GET, PATCH e DELETE.
+Verbos CRUD: CREATE, READ, UPDATE e DELETE.
+
+# Banco de Dados - MongoDB
+
+- Criar conta no MongoDB
+- Configurar espaço onde salvar dados
+- Pegar dados e usar no projeto
+- Criar modelo do Objeto e lista (coleção)
+- Editar funções para salvar informações no banco.
+
+
+MongoDB
+https://www.mongodb.com/
+
+Conta Gmail 
+Conta Google
+
+Marcia Moreira
+id.marcia.moreira@gmail.com
+
+
+https://cloud.mongodb.com/v2/662175ab6a2ae05ae98073d4#/security/network/accessList
+
+# String de conexão de banco de dados:
+
+  - String API PrograMaria: mongodb+srv://idmarciamoreira:jhj9eVkrRdiYtToo@clustermulheresprograma.nttdarg.mongodb.net/
+
+  - String Local (Caso tenha o db Instalado) - Padrão: mongodb://127.0.0.1:27017 
+
+# Biblioteca Mongoose - Ferramenta que liga o Projeto ao Banco de Dados
+
+- Instalar no Terminal VSCode PowerShell dentro da pasta do projeto:
+=> npm install mongoose 
+
+Após instalar, podemos verificar no arquivo package.json, se o nome mongoose aparece em 'dependencias'.
+
+# Modelagem de Banco de Dados
+
+- Criar Modelo - Objeto Mulher
+- 
+
+
+# Segurança das Informações - Dados
+
+Não podemos deixar nossa senha do banco de dados na string, aberta no código!
+
+Eliminar vulnerabilidade: dot .env
+
+Instalar pacote dotenv => npm install dotenv
+
+Criar arquivo .env , incluir no .gitignore e colar a string com senha do banco no MONGO_URL
+
+Retirar a senha do servidor mulheres e configurar...
+
+# Liberação CORS (Cross-origin Resource Sharing)
+
+Para liberar para o código funcionar no front-end (não só no insomnia)
+
+Instalar o Pacote cors => npm install cors
+
+Configurar o servidor mulheres, chamando o cors e app cors
+
+# Enfim o DEPLOY:
+
+<!--? Parei na trilha 9  -->
 
 
 
