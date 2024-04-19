@@ -5,12 +5,17 @@ pdf_aulas/
 node_modules/
 anotacoes_diversas/
 
-
-# Arquivos:
-package-lock.json
-package.json
-
-node_modules
+# Arquivos: Para fazer Deploy, precisa ter esses arquivos no github!!!
+# package-lock.json
+# package.json
 
 # (Com a senha do db)
 .env 
+
+# Dicas do que ignorar:
+node_modules/
+.env
+*.log
+.DS_Store
+coverage/
+dist/

@@ -1,9 +1,10 @@
-# Bootcap PrograMaria - EuProgrAmo - Contruindo uma API
+# Bootcap PrograMaria - EuProgrAmo - Construindo uma API
 EAD - 2024  
+
 
 ## Tecnologias:
 
-- JavaScript / 
+- JavaScript / NodeJS / Insomnia / Laravel??? / Git / GitHub / 
 <!-- - Virtualenv /???? -->
 
 ## Ferramentas:  
@@ -27,7 +28,7 @@ Pensamento Computacional
 
 --
 
-Dicionário de Mulheres Negras:
+Dicionário de Mulheres Programadoras:
 
 
 --
@@ -385,3 +386,18 @@ Como declarar uma função:
 - e dentro das chaves colocamos as instruções
 
 A partir de agora você pode usar mostraPorta() em vez de escrever as instruções que estão dentro da função.
+
+
+================================
+
+A seguir, um passo a passo do que não pode faltar ao documentar API. Enumere-os e forneça informações como:
+
+Descrição da funcionalidade provida;
+Parâmetros de entrada — aqui, é importante especificar quais são obrigatórios e quais são opcionais, bem como o tipo do valor esperado para cada um. Da mesma maneira, é importante deixar clara a forma como o valor é recebido (por querystring, pelo cabeçalho ou corpo da requisição, etc.);
+Formato da resposta (e.g. Application JSON, XML, etc.);
+Requerimento ou não de autenticação;
+Limitação de uso;
+No caso de uma API baseada no protocolo HTTP, especificação os métodos aceitos pelo endpoint;
+Descrição dos possíveis retornos, tanto em caso de sucesso quanto os possíveis valores de erro — especifique, além dos códigos de erro, uma descrição que deixe claro o motivo pelo qual a requisição não pode ser atendida.
+
+======================================
