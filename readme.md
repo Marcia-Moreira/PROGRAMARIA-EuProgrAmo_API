@@ -32,8 +32,6 @@ Dicionário de Mulheres Programadoras:
 
 
 --
-
-
 -------------------------------------------------
 
 # Sobre o Node.js 
@@ -161,7 +159,7 @@ Conta Google
 Cadastro Site MongoDB:
 Marcia Moreira
 id.marcia.moreira@gmail.com
-Senha - Mm@1331228113
+Senha - *************
 
 Banco de Dados Test Divas 
 
@@ -210,15 +208,6 @@ Configurar o servidor mulheres, chamando o cors e app cors
 # Enfim o DEPLOY:
 
 <!--? Parei na trilha 9  -->
-
-
-
-
-
-
-
-
-
 
 
 ==========================================================================
@@ -318,11 +307,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 Introdução ao JSON  
 https://www.json.org/json-pt.html
-
-
-
-
-
 
 =====================================================================
 
